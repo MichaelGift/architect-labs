@@ -1,0 +1,28 @@
+{
+    "name": "michael/architect-labs",
+    "description": "Thrivecart takehome assessment on problem solving, design and general skill",
+    "type": "project",
+    "require-dev": {
+        "phpunit/phpunit": "^12.1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SRC\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Michael Gift",
+            "email": "simiyugift@outlook.com"
+        }
+    ],
+    "scripts": {
+        "test": [
+            "phpunit"
+        ]
+    },
+    "require": {},
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
